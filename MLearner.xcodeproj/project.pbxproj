@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51ECABF211EA853004B7138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ECABE211EA853004B7138 /* ViewController.swift */; };
 		F56F08AA21196D95006414AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F08A921196D95006414AF /* AppDelegate.swift */; };
-		F56F08AC21196D95006414AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F08AB21196D95006414AF /* ViewController.swift */; };
 		F56F08AF21196D95006414AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56F08AD21196D95006414AF /* Main.storyboard */; };
 		F56F08B121196D97006414AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56F08B021196D97006414AF /* Assets.xcassets */; };
 		F56F08B421196D97006414AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56F08B221196D97006414AF /* LaunchScreen.storyboard */; };
 		F56F08BF21196D97006414AF /* MLearnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F08BE21196D97006414AF /* MLearnerTests.swift */; };
 		F56F08CA21196D97006414AF /* MLearnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F08C921196D97006414AF /* MLearnerUITests.swift */; };
+		F579011A211B863800B1DFA8 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5790119211B863800B1DFA8 /* ImageViewCell.swift */; };
+		F5B8D9E2211985FE006D6D8E /* SearchUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8D9E1211985FE006D6D8E /* SearchUIController.swift */; };
+		F5B8D9E42119867C006D6D8E /* ThumbnailUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8D9E32119867C006D6D8E /* ThumbnailUIController.swift */; };
+		F5B8D9E6211986B7006D6D8E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8D9E5211986B7006D6D8E /* DetailViewController.swift */; };
+		F5B8D9E8211A2B53006D6D8E /* GoogleCustomSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B8D9E7211A2B53006D6D8E /* GoogleCustomSearchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51ECABE211EA853004B7138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F56F08A621196D95006414AF /* MLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56F08A921196D95006414AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F56F08AB21196D95006414AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F56F08AE21196D95006414AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F56F08B021196D97006414AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56F08B321196D97006414AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		F56F08C521196D97006414AF /* MLearnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLearnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56F08C921196D97006414AF /* MLearnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLearnerUITests.swift; sourceTree = "<group>"; };
 		F56F08CB21196D97006414AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5790119211B863800B1DFA8 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		F5B8D9E1211985FE006D6D8E /* SearchUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIController.swift; sourceTree = "<group>"; };
+		F5B8D9E32119867C006D6D8E /* ThumbnailUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailUIController.swift; sourceTree = "<group>"; };
+		F5B8D9E5211986B7006D6D8E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F5B8D9E7211A2B53006D6D8E /* GoogleCustomSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCustomSearchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				F56F08A921196D95006414AF /* AppDelegate.swift */,
-				F56F08AB21196D95006414AF /* ViewController.swift */,
 				F56F08AD21196D95006414AF /* Main.storyboard */,
 				F56F08B021196D97006414AF /* Assets.xcassets */,
 				F56F08B221196D97006414AF /* LaunchScreen.storyboard */,
 				F56F08B521196D97006414AF /* Info.plist */,
+				F5B8D9E1211985FE006D6D8E /* SearchUIController.swift */,
+				F5B8D9E32119867C006D6D8E /* ThumbnailUIController.swift */,
+				F5B8D9E5211986B7006D6D8E /* DetailViewController.swift */,
+				F5B8D9E7211A2B53006D6D8E /* GoogleCustomSearchService.swift */,
+				F5790119211B863800B1DFA8 /* ImageViewCell.swift */,
+				F51ECABE211EA853004B7138 /* ViewController.swift */,
 			);
 			path = MLearner;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F56F08AC21196D95006414AF /* ViewController.swift in Sources */,
+				F5B8D9E42119867C006D6D8E /* ThumbnailUIController.swift in Sources */,
+				F579011A211B863800B1DFA8 /* ImageViewCell.swift in Sources */,
+				F5B8D9E2211985FE006D6D8E /* SearchUIController.swift in Sources */,
+				F5B8D9E6211986B7006D6D8E /* DetailViewController.swift in Sources */,
+				F51ECABF211EA853004B7138 /* ViewController.swift in Sources */,
 				F56F08AA21196D95006414AF /* AppDelegate.swift in Sources */,
+				F5B8D9E8211A2B53006D6D8E /* GoogleCustomSearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,19 +2,30 @@
 //  ViewController.swift
 //  MLearner
 //
-//  Created by Pavel Chechetin on 8/6/18.
+//  Created by Pavel Chechetin on 8/10/18.
 //  Copyright © 2018 Pavel Chechetin. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+extension UIViewController {
+    func showAlertWith(title: String, message: String) {
+        let alert = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: .alert
+        )
+        
+        let action = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        alert.addAction(action)
+        
+        self.present(alert, animated: true, completion: nil)
     }
-
-
+    
+//    func appDelegate() -> AppDelegate {
+//        return (UIApplication.shared.delegate! as! AppDelegate)
+//    }
 }
 
